@@ -1,11 +1,35 @@
+body {
+  
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+  background-color: #F5F7FB;
+}
+
 .App{
   margin:0;
-  width: 100px;
-  height: 100px;
-  background-color: red;
+  min-width: 300px;
+  height: 100Vh;
+  position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 1.5rem;
   font-weight: bolder;
+}
+
+.blobs-blue{
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+
+.blobs-yellow{
+  position: fixed;
+  top:0;
+  right: 0;
 }
