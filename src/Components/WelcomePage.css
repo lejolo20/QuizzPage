@@ -20,7 +20,7 @@ h3{
     margin:1rem;
 }
 
-button{
+.main-button{
     margin-top: 2rem;
     border: none;
     cursor: pointer;
