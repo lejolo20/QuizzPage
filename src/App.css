@@ -24,18 +24,26 @@
 }
 
 .blobs-blue{
+  background-image: url(./Images/blobs-blue.png);
   position: fixed;
   bottom: 0;
   left: 0;
-  z-index:-100
-}
-
-.blobs-yellow{
-  position: fixed;
-  top:0;
-  right: 0;
-  z-index:-100
-}
+  height: 118px;
+  width: 148px;
+  z-index: 100000;
+ }
+ 
+ .blobs-yellow{
+   background-image: url(./Images/blobs-yellow.png);
+   background-repeat: no-repeat;
+   background-position: 0px;
+   position: fixed;
+   top:0;
+   right: 0;
+   height: 197px;
+   width: 194px;
+   z-index: 100000;
+ }
 
 .welcome{
   display:flex;

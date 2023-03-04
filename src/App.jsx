@@ -17,8 +17,8 @@ function App() {
 
   return (
     <div className='main'>
-      <img className='blobs-blue'  src='../src/Images/blobs-blue.png'/>
-      <img className='blobs-yellow'  src='../src/Images/blobs-yellow.png'/>
+      <div className='blobs-blue'></div>
+      <div className='blobs-yellow'></div>
       <div className="App">
         {
           questPage ?  
