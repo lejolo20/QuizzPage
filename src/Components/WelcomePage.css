@@ -1,10 +1,15 @@
 .welcome-page{
+    padding-bottom: 5px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     min-width: 300px;
-    height: 80vh;
+    /* height: 50VH; */
+    /* border:2px solid red;  */
+    border-bottom: 2px solid #DBDEF0 ;
+    text-align: center;
+    
 }
 
 h1{
@@ -17,11 +22,11 @@ h1{
 h3{
     color:#293264;
     font-size:1rem;
-    margin:1rem;
+    margin:0.5rem;
 }
 
 .main-button{
-    margin-top: 2rem;
+    margin: 0.5rem 0;
     border: none;
     cursor: pointer;
     width:193px;
