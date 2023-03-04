@@ -30,7 +30,7 @@
   left: 0;
   height: 118px;
   width: 148px;
-  z-index: 100000;
+  z-index: -100000;
  }
  
  .blobs-yellow{
@@ -42,7 +42,7 @@
    right: 0;
    height: 197px;
    width: 194px;
-   z-index: 100000;
+   z-index: -100000;
  }
 
 .welcome{
